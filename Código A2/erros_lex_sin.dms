@@ -1,0 +1,7 @@
+/* Teste de erro lexico e de erro sintatico */
+sensor temperatura: analogico(porta 1).
+
+x <- temperatura @ 2.
+se temperatura < 30
+escrever(x).
+fim_se.

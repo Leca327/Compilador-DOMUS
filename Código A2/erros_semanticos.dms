@@ -1,0 +1,9 @@
+/* Teste de erros semanticos */
+sensor temperatura: analogico(porta 1).
+sensor temperatura: digital(porta 2).
+atuador cortina: digital(porta 1).
+
+temperatura <- 10.
+x <- cortina + 1.
+y <- z + 1.
+escrever(x).
